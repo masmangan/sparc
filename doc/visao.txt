@@ -3,7 +3,11 @@ Visao
 
 2.1 Definicao do problema
 
-A. demora na consulta
-B. perda de oportunidade de uso de recurso
-C. uso do recurso incorreto
+O SARC oferece as funcoes necessarias ao professor. O problema com o uso do SARCpode ser dividido em tres partes:
 
+A. demora nas tarefas de consulta e modificacao de alocacao de recursos
+B. perda de oportunidade de uso de recurso
+
+O problema afeta professores, alunos e coordenadores. O professor gasta tempo para consultar o planejamento de aulas e atualizar a alocacao de recursos. O aluno pode ser afetado, quando o professor se atrasa em funcao da consulta ou quando o professor perde a oportunidade de utilizar ou liberar um recurso. A coordenacao eh afetada quando a falta de uso do recurso diminui seu retorno de investimento e afeta a qualidade da aula.
+
+Uma solucao adequada reduziria a ociosidade de recursos, reduziria o tempo necessario para realizar a consulta e atualizacao da alocacao de recursos e aumentar as oportunidades de rever o planejamento, reservar recursos disponiveis e liberar recursos que nao serao utilizados.
