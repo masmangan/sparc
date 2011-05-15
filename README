@@ -1,4 +1,6 @@
 Sistema Pessoal de Alocacao de Recursos Computacionais - SPARC
 2011
 
-Sistema para permitir o uso do SARC por meio de dispositivos moveis.
+Sistema para permitir que professores utilizem o SARC por meio de dispositivos moveis.
+
+O SPARC eh um exercicio de desenvolvimento para plataformas moveis utilizando o processo OpenUP nas plataformas Android e iOS.
