@@ -1,0 +1,9 @@
+Sistema Pessoal de Alocacao de Recursos (SPARC)
+Visao
+
+2.1 Definicao do problema
+
+A. demora na consulta
+B. perda de oportunidade de uso de recurso
+C. uso do recurso incorreto
+
