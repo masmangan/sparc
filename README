@@ -4,3 +4,5 @@ Sistema Pessoal de Alocacao de Recursos Computacionais - SPARC
 Um sistema para permitir que professores utilizem o SARC por meio de dispositivos moveis.
 
 Este projeto eh um exercicio de desenvolvimento de software com plataformas moveis utilizando o metodo OpenUP para coordenar o desenvolvimento de versoes alternativas do SPARC nas plataformas Android e iOS. Uma das hipoteses investigadas eh que eh possivel utilizar mecanismos arquiteturais para postergar a dependencia com a plataforma durante a maior parte do projeto. 
+
+As ferramentas utilizadas no projeto incluem git, github, eclipse e xcode.
