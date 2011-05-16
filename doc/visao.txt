@@ -11,3 +11,59 @@ B. perda de oportunidade de uso de recurso
 O problema afeta professores, alunos e coordenadores. O professor gasta tempo para consultar o planejamento de aulas e atualizar a alocacao de recursos. O aluno pode ser afetado, quando o professor se atrasa em funcao da consulta ou quando o professor perde a oportunidade de utilizar ou liberar um recurso. A coordenacao eh afetada quando a falta de uso do recurso diminui seu retorno de investimento e afeta a qualidade da aula.
 
 Uma solucao adequada reduziria a ociosidade de recursos, reduziria o tempo necessario para realizar a consulta e atualizacao da alocacao de recursos e aumentar as oportunidades de rever o planejamento, reservar recursos disponiveis e liberar recursos que nao serao utilizados.
+
+2.2 Posicionamento do Produto
+
+Os usuarios sao professores que utilizam o SARC, que possuam um dispositivo movel. O SPARC eh uma ferramenta de produtivdade que permite a consulta e atualizacao rapida de dados no SARC.
+
+Sobre o SARC, a principal vantagem eh o acesso via dispositivo movel. Sobre a copia em papel do cronograma, a vantagem eh a liberacao e atualizacao de recursos.
+
+3.1 Envolvidos
+
+Professores | beneficiado diretamente, definicao de requisitos, validacao
+
+Alunos | beneficiado indiretamente pelo uso dos recursos
+
+Coordenacao Academica | autorizacao de modificacao no servidor, beneficiado indiretamente pelo retorno de investimento dos recursos e qualidade de aulas
+
+ABD - Cohen | alteracoes no banco de dados
+ASH - Cohen | alteracores no SARC
+
+GTIT | infraestrutura 
+
+Provedores de plataformas | atualizacoes
+
+3.2 Ambiente do usuario
+
+A tarefa eh realizada pelo professor. O sistema permite acesso apenas a dados do proprio professor. Para as demais operacoes, o SARC deve ser utilizado.
+
+A sequencia de acoes para a realizar a tarefa atualmente eh:
+o deslocar-se ateh um computador com acesso a Internet
+o realizar a autenticacao de usuario no sistema operacional
+o utilizar o navegador para localizar o endereco do SARC
+o consultar recursos alocados para o dia, dentre todos os recursos do periodo atual e proximo
+OU
+o realizar a autenticacao no SARC
+o realizar a consulta para outros periodos, via cronograma da disciplina
+o liberar ou reservar recursos
+
+o encerrar a sessao no SARC
+o encerrar a sessao no sistema operacional
+o retornar ao local de origem
+4.1 Necessidades e Caracteristicas
+
+Consulta de cronograma de disciplinas | Lista de aulas de um dia
+Atualizar recursos | Lista de recursos disponiveis para uma aula, Reserva de recurso, Liberacao de recurso
+Confidencialidade | Autenticacao de usuario, Autorizacao de consulta e alteracao apenas sobre os dados do proprio professor
+
+5.
+
+W3C
+JSON, Web Services, HTML, xHTML, acessibilidade
+
+OMG
+Service Oriented Architecture, Unified Modeling Language
+
+iOS e Android
+
+Exemplos: Digg Mobile e iOS Clock
