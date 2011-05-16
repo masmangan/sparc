@@ -1,0 +1,25 @@
+Sistema Pessoal de Alocacao de Recursos Computacionais - SPARC
+2011
+
+Projeto
+
+1. Introducao
+
+2. Organizacao do projeto
+Apenas um desenvolvedor realiza todos os papeis: analista, gerente de projeto, desenvolvedor e controle de qualidade.
+
+Marcelo Cohen participa como desenvolvedor, administrador de banco de dados e administrador Web do SARC.
+
+3. Praticas e Medidas
+O projeto adota ciclos iterativos, compostos por quatro semanas, organizados segundo guias do OpenUP.
+O trabalho eh voluntario, com apenas uma hora semanal, nas quintas-feiras. Em caso de ausencia, outro horario eh alocado antes da proxima quinta.
+A documentacao e codigo sao compartilhados via github.
+Sao usados pontos para avaliar o esforco e a velocidade do projeto. 
+
+4. Marcos e Objetivos
+
+I1 Instalar ambiente de desenvolvimento, estudo de exemplos, estudo de aplicacoes similares, LOM, 0
+I2 Definir testes, utilizar servidor web, estudo de hipertextos para mobile, testestes com servidor local
+I3 Desenvolver caso de uso 1
+I4 Desenvolver caso de uso 2
+I5 Alterar servidor SARC
