@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB8EB74A1380BD310047D6CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8EB7491380BD310047D6CE /* UIKit.framework */; };
+		EB8EB74C1380BD310047D6CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8EB74B1380BD310047D6CE /* Foundation.framework */; };
+		EB8EB74E1380BD310047D6CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8EB74D1380BD310047D6CE /* CoreGraphics.framework */; };
+		EB8EB7501380BD310047D6CE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8EB74F1380BD310047D6CE /* CoreData.framework */; };
+		EB8EB7561380BD310047D6CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB8EB7541380BD310047D6CE /* InfoPlist.strings */; };
+		EB8EB7591380BD310047D6CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8EB7581380BD310047D6CE /* main.m */; };
+		EB8EB75C1380BD310047D6CE /* sparc_iosAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8EB75B1380BD310047D6CE /* sparc_iosAppDelegate.m */; };
+		EB8EB75F1380BD310047D6CE /* sparc_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB8EB75D1380BD310047D6CE /* sparc_ios.xcdatamodeld */; };
+		EB8EB7621380BD310047D6CE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8EB7601380BD310047D6CE /* MainWindow.xib */; };
+		EB8EB7651380BD310047D6CE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8EB7641380BD310047D6CE /* RootViewController.m */; };
+		EB8EB7681380BD310047D6CE /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB8EB7661380BD310047D6CE /* RootViewController.xib */; };
+		EB8EB76F1380BD310047D6CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8EB7491380BD310047D6CE /* UIKit.framework */; };
+		EB8EB7701380BD310047D6CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8EB74B1380BD310047D6CE /* Foundation.framework */; };
+		EB8EB7711380BD310047D6CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8EB74D1380BD310047D6CE /* CoreGraphics.framework */; };
+		EB8EB7721380BD310047D6CE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8EB74F1380BD310047D6CE /* CoreData.framework */; };
+		EB8EB77A1380BD310047D6CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB8EB7781380BD310047D6CE /* InfoPlist.strings */; };
+		EB8EB77D1380BD320047D6CE /* sparc_iosTests.h in Resources */ = {isa = PBXBuildFile; fileRef = EB8EB77C1380BD320047D6CE /* sparc_iosTests.h */; };
+		EB8EB77F1380BD320047D6CE /* sparc_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8EB77E1380BD320047D6CE /* sparc_iosTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB8EB7731380BD310047D6CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB8EB73C1380BD310047D6CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB8EB7441380BD310047D6CE;
+			remoteInfo = "sparc ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB8EB7451380BD310047D6CE /* sparc ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sparc ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8EB7491380BD310047D6CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB8EB74B1380BD310047D6CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB8EB74D1380BD310047D6CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB8EB74F1380BD310047D6CE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EB8EB7531380BD310047D6CE /* sparc ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sparc ios-Info.plist"; sourceTree = "<group>"; };
+		EB8EB7551380BD310047D6CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB8EB7571380BD310047D6CE /* sparc ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sparc ios-Prefix.pch"; sourceTree = "<group>"; };
+		EB8EB7581380BD310047D6CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB8EB75A1380BD310047D6CE /* sparc_iosAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sparc_iosAppDelegate.h; sourceTree = "<group>"; };
+		EB8EB75B1380BD310047D6CE /* sparc_iosAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sparc_iosAppDelegate.m; sourceTree = "<group>"; };
+		EB8EB75E1380BD310047D6CE /* sparc_ios.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sparc_ios.xcdatamodel; sourceTree = "<group>"; };
+		EB8EB7611380BD310047D6CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		EB8EB7631380BD310047D6CE /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		EB8EB7641380BD310047D6CE /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EB8EB7671380BD310047D6CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		EB8EB76E1380BD310047D6CE /* sparc iosTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sparc iosTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8EB7771380BD310047D6CE /* sparc iosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sparc iosTests-Info.plist"; sourceTree = "<group>"; };
+		EB8EB7791380BD310047D6CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB8EB77B1380BD310047D6CE /* sparc iosTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sparc iosTests-Prefix.pch"; sourceTree = "<group>"; };
+		EB8EB77C1380BD320047D6CE /* sparc_iosTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sparc_iosTests.h; sourceTree = "<group>"; };
+		EB8EB77E1380BD320047D6CE /* sparc_iosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sparc_iosTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB8EB7421380BD310047D6CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8EB74A1380BD310047D6CE /* UIKit.framework in Frameworks */,
+				EB8EB74C1380BD310047D6CE /* Foundation.framework in Frameworks */,
+				EB8EB74E1380BD310047D6CE /* CoreGraphics.framework in Frameworks */,
+				EB8EB7501380BD310047D6CE /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8EB76A1380BD310047D6CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8EB76F1380BD310047D6CE /* UIKit.framework in Frameworks */,
+				EB8EB7701380BD310047D6CE /* Foundation.framework in Frameworks */,
+				EB8EB7711380BD310047D6CE /* CoreGraphics.framework in Frameworks */,
+				EB8EB7721380BD310047D6CE /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB8EB73A1380BD310047D6CE = {
+			isa = PBXGroup;
+			children = (
+				EB8EB7511380BD310047D6CE /* sparc ios */,
+				EB8EB7751380BD310047D6CE /* sparc iosTests */,
+				EB8EB7481380BD310047D6CE /* Frameworks */,
+				EB8EB7461380BD310047D6CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB8EB7461380BD310047D6CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB8EB7451380BD310047D6CE /* sparc ios.app */,
+				EB8EB76E1380BD310047D6CE /* sparc iosTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB8EB7481380BD310047D6CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB8EB7491380BD310047D6CE /* UIKit.framework */,
+				EB8EB74B1380BD310047D6CE /* Foundation.framework */,
+				EB8EB74D1380BD310047D6CE /* CoreGraphics.framework */,
+				EB8EB74F1380BD310047D6CE /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB8EB7511380BD310047D6CE /* sparc ios */ = {
+			isa = PBXGroup;
+			children = (
+				EB8EB75A1380BD310047D6CE /* sparc_iosAppDelegate.h */,
+				EB8EB75B1380BD310047D6CE /* sparc_iosAppDelegate.m */,
+				EB8EB7601380BD310047D6CE /* MainWindow.xib */,
+				EB8EB7631380BD310047D6CE /* RootViewController.h */,
+				EB8EB7641380BD310047D6CE /* RootViewController.m */,
+				EB8EB7661380BD310047D6CE /* RootViewController.xib */,
+				EB8EB75D1380BD310047D6CE /* sparc_ios.xcdatamodeld */,
+				EB8EB7521380BD310047D6CE /* Supporting Files */,
+			);
+			path = "sparc ios";
+			sourceTree = "<group>";
+		};
+		EB8EB7521380BD310047D6CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB8EB7531380BD310047D6CE /* sparc ios-Info.plist */,
+				EB8EB7541380BD310047D6CE /* InfoPlist.strings */,
+				EB8EB7571380BD310047D6CE /* sparc ios-Prefix.pch */,
+				EB8EB7581380BD310047D6CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB8EB7751380BD310047D6CE /* sparc iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB8EB77C1380BD320047D6CE /* sparc_iosTests.h */,
+				EB8EB77E1380BD320047D6CE /* sparc_iosTests.m */,
+				EB8EB7761380BD310047D6CE /* Supporting Files */,
+			);
+			path = "sparc iosTests";
+			sourceTree = "<group>";
+		};
+		EB8EB7761380BD310047D6CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB8EB7771380BD310047D6CE /* sparc iosTests-Info.plist */,
+				EB8EB7781380BD310047D6CE /* InfoPlist.strings */,
+				EB8EB77B1380BD310047D6CE /* sparc iosTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB8EB7441380BD310047D6CE /* sparc ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8EB7821380BD320047D6CE /* Build configuration list for PBXNativeTarget "sparc ios" */;
+			buildPhases = (
+				EB8EB7411380BD310047D6CE /* Sources */,
+				EB8EB7421380BD310047D6CE /* Frameworks */,
+				EB8EB7431380BD310047D6CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sparc ios";
+			productName = "sparc ios";
+			productReference = EB8EB7451380BD310047D6CE /* sparc ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB8EB76D1380BD310047D6CE /* sparc iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB8EB7851380BD320047D6CE /* Build configuration list for PBXNativeTarget "sparc iosTests" */;
+			buildPhases = (
+				EB8EB7691380BD310047D6CE /* Sources */,
+				EB8EB76A1380BD310047D6CE /* Frameworks */,
+				EB8EB76B1380BD310047D6CE /* Resources */,
+				EB8EB76C1380BD310047D6CE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB8EB7741380BD310047D6CE /* PBXTargetDependency */,
+			);
+			name = "sparc iosTests";
+			productName = "sparc iosTests";
+			productReference = EB8EB76E1380BD310047D6CE /* sparc iosTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB8EB73C1380BD310047D6CE /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EB8EB73F1380BD310047D6CE /* Build configuration list for PBXProject "sparc ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB8EB73A1380BD310047D6CE;
+			productRefGroup = EB8EB7461380BD310047D6CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB8EB7441380BD310047D6CE /* sparc ios */,
+				EB8EB76D1380BD310047D6CE /* sparc iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB8EB7431380BD310047D6CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8EB7561380BD310047D6CE /* InfoPlist.strings in Resources */,
+				EB8EB7621380BD310047D6CE /* MainWindow.xib in Resources */,
+				EB8EB7681380BD310047D6CE /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8EB76B1380BD310047D6CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8EB77A1380BD310047D6CE /* InfoPlist.strings in Resources */,
+				EB8EB77D1380BD320047D6CE /* sparc_iosTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EB8EB76C1380BD310047D6CE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB8EB7411380BD310047D6CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8EB7591380BD310047D6CE /* main.m in Sources */,
+				EB8EB75C1380BD310047D6CE /* sparc_iosAppDelegate.m in Sources */,
+				EB8EB75F1380BD310047D6CE /* sparc_ios.xcdatamodeld in Sources */,
+				EB8EB7651380BD310047D6CE /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB8EB7691380BD310047D6CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8EB77F1380BD320047D6CE /* sparc_iosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB8EB7741380BD310047D6CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB8EB7441380BD310047D6CE /* sparc ios */;
+			targetProxy = EB8EB7731380BD310047D6CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB8EB7541380BD310047D6CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB8EB7551380BD310047D6CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB8EB7601380BD310047D6CE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB8EB7611380BD310047D6CE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		EB8EB7661380BD310047D6CE /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB8EB7671380BD310047D6CE /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		EB8EB7781380BD310047D6CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB8EB7791380BD310047D6CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB8EB7801380BD320047D6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB8EB7811380BD320047D6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		EB8EB7831380BD320047D6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sparc ios/sparc ios-Prefix.pch";
+				INFOPLIST_FILE = "sparc ios/sparc ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB8EB7841380BD320047D6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sparc ios/sparc ios-Prefix.pch";
+				INFOPLIST_FILE = "sparc ios/sparc ios-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EB8EB7861380BD320047D6CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sparc ios.app/sparc ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sparc iosTests/sparc iosTests-Prefix.pch";
+				INFOPLIST_FILE = "sparc iosTests/sparc iosTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EB8EB7871380BD320047D6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sparc ios.app/sparc ios";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sparc iosTests/sparc iosTests-Prefix.pch";
+				INFOPLIST_FILE = "sparc iosTests/sparc iosTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB8EB73F1380BD310047D6CE /* Build configuration list for PBXProject "sparc ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8EB7801380BD320047D6CE /* Debug */,
+				EB8EB7811380BD320047D6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB8EB7821380BD320047D6CE /* Build configuration list for PBXNativeTarget "sparc ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8EB7831380BD320047D6CE /* Debug */,
+				EB8EB7841380BD320047D6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB8EB7851380BD320047D6CE /* Build configuration list for PBXNativeTarget "sparc iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB8EB7861380BD320047D6CE /* Debug */,
+				EB8EB7871380BD320047D6CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EB8EB75D1380BD310047D6CE /* sparc_ios.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB8EB75E1380BD310047D6CE /* sparc_ios.xcdatamodel */,
+			);
+			currentVersion = EB8EB75E1380BD310047D6CE /* sparc_ios.xcdatamodel */;
+			path = sparc_ios.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EB8EB73C1380BD310047D6CE /* Project object */;
+}

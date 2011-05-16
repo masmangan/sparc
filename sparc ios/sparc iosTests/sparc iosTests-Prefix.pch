@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'sparc iosTests' target in the 'sparc iosTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
