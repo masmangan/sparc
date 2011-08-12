@@ -1,0 +1,11 @@
+SELECT DISTINCT 
+                      TOP (100) PERCENT dbo.Aulas.Hora AS Horário, dbo.Aulas.DescricaoAtividade AS Atividade, dbo.Turmas.Numero AS Turma, dbo.Disciplinas.Nome AS Disciplina, 
+                      dbo.Professores.Nome AS Professor, dbo.Professores.UserId, dbo.Aulas.AulaId, dbo.Aulas.Data, dbo.Aulas.CategoriaAtividadeId, 
+                      dbo.CategoriasAtividade.Descricao
+FROM         dbo.Aulas INNER JOIN
+                      dbo.Turmas ON dbo.Aulas.TurmaId = dbo.Turmas.TurmaId INNER JOIN
+                      dbo.Disciplinas ON dbo.Turmas.DisciplinaCod = dbo.Disciplinas.DisciplinaCod INNER JOIN
+                      dbo.Professores ON dbo.Turmas.ProfessorId = dbo.Professores.UserId INNER JOIN
+                      dbo.CategoriasAtividade ON dbo.Aulas.CategoriaAtividadeId = dbo.CategoriasAtividade.CategoriaAtividadeId
+WHERE     (CONVERT(date, dbo.Aulas.Data) = CONVERT(date, GETDATE())) AND (dbo.Professores.Nome = N'Marco Aurélio Souza Mangan')
+ORDER BY Horário, Disciplina
