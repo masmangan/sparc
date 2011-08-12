@@ -10,6 +10,7 @@ namespace sparc.Controllers
     public class AulaController : Controller
     {
         private AulaRepository aulaRepository = new AulaRepository();
+
         //
         // GET: /Aula/
         

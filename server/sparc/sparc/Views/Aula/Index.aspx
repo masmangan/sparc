@@ -6,36 +6,30 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-    <h2>Index</h2>
+    <h2>Hoje</h2>
 
     <table>
         <tr>
-            <th></th>
             <th>
-                horario
+                Horário
             </th>
             <th>
-                atividade
+                Atividade
             </th>
             <th>
-                turma
+                Turma
             </th>
             <th>
-                disciplina
+                Disciplina
             </th>
             <th>
-                categoria
+                Categoria
             </th>
         </tr>
 
     <% foreach (var item in Model) { %>
     
         <tr>
-            <td>
-                <%: Html.ActionLink("Edit", "Edit", new { id=item.horario }) %> |
-                <%: Html.ActionLink("Details", "Details", new { id=item.horario })%> |
-                <%: Html.ActionLink("Delete", "Delete", new { id=item.horario })%>
-            </td>
             <td>
                 <%: item.horario %>
             </td>
@@ -56,10 +50,6 @@
     <% } %>
 
     </table>
-
-    <p>
-        <%: Html.ActionLink("Create New", "Create") %>
-    </p>
 
 </asp:Content>
 

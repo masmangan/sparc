@@ -95,6 +95,10 @@ page width. Or, you can specify an exact pixel width. */
     margin-bottom: 0px;
     color: #000;
     padding: 0;
+    top: 0px;
+    left: -1px;
+    height: 91px;
+    width: 790px;
 }
 
 #header h1
