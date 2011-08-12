@@ -1,39 +1,30 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<IEnumerable<sparc.Models.sparc_Aulas>>" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
-	Aula
+	Index
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-    <h2>Aula</h2>
+    <h2>Index</h2>
 
     <table>
         <tr>
             <th></th>
             <th>
-                Data
+                horario
             </th>
             <th>
-                Horário
+                atividade
             </th>
             <th>
-                Atividade
+                turma
             </th>
             <th>
-                Turma
+                disciplina
             </th>
             <th>
-                Disciplina
-            </th>
-            <th>
-                Professor
-            </th>
-            <th>
-                UserId
-            </th>
-            <th>
-                AulaId
+                categoria
             </th>
         </tr>
 
@@ -41,33 +32,24 @@
     
         <tr>
             <td>
-                <%: Html.ActionLink("Edit", "Edit", new { id=item.Data }) %> |
-                <%: Html.ActionLink("Details", "Details", new { id=item.Data })%> |
-                <%: Html.ActionLink("Delete", "Delete", new { id=item.Data })%>
+                <%: Html.ActionLink("Edit", "Edit", new { id=item.horario }) %> |
+                <%: Html.ActionLink("Details", "Details", new { id=item.horario })%> |
+                <%: Html.ActionLink("Delete", "Delete", new { id=item.horario })%>
             </td>
             <td>
-                <%: String.Format("{0:g}", item.Data) %>
+                <%: item.horario %>
             </td>
             <td>
-                <%: item.Horário %>
+                <%: item.atividade %>
             </td>
             <td>
-                <%: item.Atividade %>
+                <%: item.turma %>
             </td>
             <td>
-                <%: item.Turma %>
+                <%: item.disciplina %>
             </td>
             <td>
-                <%: item.Disciplina %>
-            </td>
-            <td>
-                <%: item.Professor %>
-            </td>
-            <td>
-                <%: item.UserId %>
-            </td>
-            <td>
-                <%: item.AulaId %>
+                <%: item.categoria %>
             </td>
         </tr>
     

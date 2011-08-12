@@ -6,3 +6,11 @@ H:\opensarc\sparc\sparc.Tests\bin\Debug\sparc.pdb
 H:\opensarc\sparc\sparc.Tests\obj\Debug\ResolveAssemblyReference.cache
 H:\opensarc\sparc\sparc.Tests\obj\Debug\sparc.Tests.dll
 H:\opensarc\sparc\sparc.Tests\obj\Debug\sparc.Tests.pdb
+H:\sparc\server\sparc\sparc.Tests\bin\Debug\sparc.Tests.dll.config
+H:\sparc\server\sparc\sparc.Tests\bin\Debug\sparc.Tests.dll
+H:\sparc\server\sparc\sparc.Tests\bin\Debug\sparc.Tests.pdb
+H:\sparc\server\sparc\sparc.Tests\bin\Debug\sparc.dll
+H:\sparc\server\sparc\sparc.Tests\bin\Debug\sparc.pdb
+H:\sparc\server\sparc\sparc.Tests\obj\Debug\ResolveAssemblyReference.cache
+H:\sparc\server\sparc\sparc.Tests\obj\Debug\sparc.Tests.dll
+H:\sparc\server\sparc\sparc.Tests\obj\Debug\sparc.Tests.pdb

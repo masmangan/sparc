@@ -113,25 +113,19 @@ namespace sparc.Models
         /// <summary>
         /// Create a new sparc_Aulas object.
         /// </summary>
-        /// <param name="data">Initial value of the Data property.</param>
-        /// <param name="horário">Initial value of the Horário property.</param>
-        /// <param name="atividade">Initial value of the Atividade property.</param>
-        /// <param name="turma">Initial value of the Turma property.</param>
-        /// <param name="disciplina">Initial value of the Disciplina property.</param>
-        /// <param name="professor">Initial value of the Professor property.</param>
-        /// <param name="userId">Initial value of the UserId property.</param>
-        /// <param name="aulaId">Initial value of the AulaId property.</param>
-        public static sparc_Aulas Createsparc_Aulas(global::System.DateTime data, global::System.String horário, global::System.String atividade, global::System.Int32 turma, global::System.String disciplina, global::System.String professor, global::System.Guid userId, global::System.Guid aulaId)
+        /// <param name="horario">Initial value of the horario property.</param>
+        /// <param name="atividade">Initial value of the atividade property.</param>
+        /// <param name="turma">Initial value of the turma property.</param>
+        /// <param name="disciplina">Initial value of the disciplina property.</param>
+        /// <param name="categoria">Initial value of the categoria property.</param>
+        public static sparc_Aulas Createsparc_Aulas(global::System.String horario, global::System.String atividade, global::System.Int32 turma, global::System.String disciplina, global::System.String categoria)
         {
             sparc_Aulas sparc_Aulas = new sparc_Aulas();
-            sparc_Aulas.Data = data;
-            sparc_Aulas.Horário = horário;
-            sparc_Aulas.Atividade = atividade;
-            sparc_Aulas.Turma = turma;
-            sparc_Aulas.Disciplina = disciplina;
-            sparc_Aulas.Professor = professor;
-            sparc_Aulas.UserId = userId;
-            sparc_Aulas.AulaId = aulaId;
+            sparc_Aulas.horario = horario;
+            sparc_Aulas.atividade = atividade;
+            sparc_Aulas.turma = turma;
+            sparc_Aulas.disciplina = disciplina;
+            sparc_Aulas.categoria = categoria;
             return sparc_Aulas;
         }
 
@@ -143,216 +137,135 @@ namespace sparc.Models
         /// </summary>
         [EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
         [DataMemberAttribute()]
-        public global::System.DateTime Data
+        public global::System.String horario
         {
             get
             {
-                return _Data;
+                return _horario;
             }
             set
             {
-                if (_Data != value)
+                if (_horario != value)
                 {
-                    OnDataChanging(value);
-                    ReportPropertyChanging("Data");
-                    _Data = StructuralObject.SetValidValue(value);
-                    ReportPropertyChanged("Data");
-                    OnDataChanged();
+                    OnhorarioChanging(value);
+                    ReportPropertyChanging("horario");
+                    _horario = StructuralObject.SetValidValue(value, false);
+                    ReportPropertyChanged("horario");
+                    OnhorarioChanged();
                 }
             }
         }
-        private global::System.DateTime _Data;
-        partial void OnDataChanging(global::System.DateTime value);
-        partial void OnDataChanged();
+        private global::System.String _horario;
+        partial void OnhorarioChanging(global::System.String value);
+        partial void OnhorarioChanged();
     
         /// <summary>
         /// No Metadata Documentation available.
         /// </summary>
         [EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
         [DataMemberAttribute()]
-        public global::System.String Horário
+        public global::System.String atividade
         {
             get
             {
-                return _Horário;
+                return _atividade;
             }
             set
             {
-                if (_Horário != value)
+                if (_atividade != value)
                 {
-                    OnHorárioChanging(value);
-                    ReportPropertyChanging("Horário");
-                    _Horário = StructuralObject.SetValidValue(value, false);
-                    ReportPropertyChanged("Horário");
-                    OnHorárioChanged();
+                    OnatividadeChanging(value);
+                    ReportPropertyChanging("atividade");
+                    _atividade = StructuralObject.SetValidValue(value, false);
+                    ReportPropertyChanged("atividade");
+                    OnatividadeChanged();
                 }
             }
         }
-        private global::System.String _Horário;
-        partial void OnHorárioChanging(global::System.String value);
-        partial void OnHorárioChanged();
+        private global::System.String _atividade;
+        partial void OnatividadeChanging(global::System.String value);
+        partial void OnatividadeChanged();
     
         /// <summary>
         /// No Metadata Documentation available.
         /// </summary>
         [EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
         [DataMemberAttribute()]
-        public global::System.String Atividade
+        public global::System.Int32 turma
         {
             get
             {
-                return _Atividade;
+                return _turma;
             }
             set
             {
-                if (_Atividade != value)
+                if (_turma != value)
                 {
-                    OnAtividadeChanging(value);
-                    ReportPropertyChanging("Atividade");
-                    _Atividade = StructuralObject.SetValidValue(value, false);
-                    ReportPropertyChanged("Atividade");
-                    OnAtividadeChanged();
+                    OnturmaChanging(value);
+                    ReportPropertyChanging("turma");
+                    _turma = StructuralObject.SetValidValue(value);
+                    ReportPropertyChanged("turma");
+                    OnturmaChanged();
                 }
             }
         }
-        private global::System.String _Atividade;
-        partial void OnAtividadeChanging(global::System.String value);
-        partial void OnAtividadeChanged();
+        private global::System.Int32 _turma;
+        partial void OnturmaChanging(global::System.Int32 value);
+        partial void OnturmaChanged();
     
         /// <summary>
         /// No Metadata Documentation available.
         /// </summary>
         [EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
         [DataMemberAttribute()]
-        public global::System.Int32 Turma
+        public global::System.String disciplina
         {
             get
             {
-                return _Turma;
+                return _disciplina;
             }
             set
             {
-                if (_Turma != value)
+                if (_disciplina != value)
                 {
-                    OnTurmaChanging(value);
-                    ReportPropertyChanging("Turma");
-                    _Turma = StructuralObject.SetValidValue(value);
-                    ReportPropertyChanged("Turma");
-                    OnTurmaChanged();
+                    OndisciplinaChanging(value);
+                    ReportPropertyChanging("disciplina");
+                    _disciplina = StructuralObject.SetValidValue(value, false);
+                    ReportPropertyChanged("disciplina");
+                    OndisciplinaChanged();
                 }
             }
         }
-        private global::System.Int32 _Turma;
-        partial void OnTurmaChanging(global::System.Int32 value);
-        partial void OnTurmaChanged();
+        private global::System.String _disciplina;
+        partial void OndisciplinaChanging(global::System.String value);
+        partial void OndisciplinaChanged();
     
         /// <summary>
         /// No Metadata Documentation available.
         /// </summary>
         [EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
         [DataMemberAttribute()]
-        public global::System.String Disciplina
+        public global::System.String categoria
         {
             get
             {
-                return _Disciplina;
+                return _categoria;
             }
             set
             {
-                if (_Disciplina != value)
+                if (_categoria != value)
                 {
-                    OnDisciplinaChanging(value);
-                    ReportPropertyChanging("Disciplina");
-                    _Disciplina = StructuralObject.SetValidValue(value, false);
-                    ReportPropertyChanged("Disciplina");
-                    OnDisciplinaChanged();
+                    OncategoriaChanging(value);
+                    ReportPropertyChanging("categoria");
+                    _categoria = StructuralObject.SetValidValue(value, false);
+                    ReportPropertyChanged("categoria");
+                    OncategoriaChanged();
                 }
             }
         }
-        private global::System.String _Disciplina;
-        partial void OnDisciplinaChanging(global::System.String value);
-        partial void OnDisciplinaChanged();
-    
-        /// <summary>
-        /// No Metadata Documentation available.
-        /// </summary>
-        [EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
-        [DataMemberAttribute()]
-        public global::System.String Professor
-        {
-            get
-            {
-                return _Professor;
-            }
-            set
-            {
-                if (_Professor != value)
-                {
-                    OnProfessorChanging(value);
-                    ReportPropertyChanging("Professor");
-                    _Professor = StructuralObject.SetValidValue(value, false);
-                    ReportPropertyChanged("Professor");
-                    OnProfessorChanged();
-                }
-            }
-        }
-        private global::System.String _Professor;
-        partial void OnProfessorChanging(global::System.String value);
-        partial void OnProfessorChanged();
-    
-        /// <summary>
-        /// No Metadata Documentation available.
-        /// </summary>
-        [EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
-        [DataMemberAttribute()]
-        public global::System.Guid UserId
-        {
-            get
-            {
-                return _UserId;
-            }
-            set
-            {
-                if (_UserId != value)
-                {
-                    OnUserIdChanging(value);
-                    ReportPropertyChanging("UserId");
-                    _UserId = StructuralObject.SetValidValue(value);
-                    ReportPropertyChanged("UserId");
-                    OnUserIdChanged();
-                }
-            }
-        }
-        private global::System.Guid _UserId;
-        partial void OnUserIdChanging(global::System.Guid value);
-        partial void OnUserIdChanged();
-    
-        /// <summary>
-        /// No Metadata Documentation available.
-        /// </summary>
-        [EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
-        [DataMemberAttribute()]
-        public global::System.Guid AulaId
-        {
-            get
-            {
-                return _AulaId;
-            }
-            set
-            {
-                if (_AulaId != value)
-                {
-                    OnAulaIdChanging(value);
-                    ReportPropertyChanging("AulaId");
-                    _AulaId = StructuralObject.SetValidValue(value);
-                    ReportPropertyChanged("AulaId");
-                    OnAulaIdChanged();
-                }
-            }
-        }
-        private global::System.Guid _AulaId;
-        partial void OnAulaIdChanging(global::System.Guid value);
-        partial void OnAulaIdChanged();
+        private global::System.String _categoria;
+        partial void OncategoriaChanging(global::System.String value);
+        partial void OncategoriaChanged();
 
         #endregion
     

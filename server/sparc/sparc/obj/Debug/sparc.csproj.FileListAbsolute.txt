@@ -3,3 +3,8 @@ H:\opensarc\sparc\sparc\bin\sparc.pdb
 H:\opensarc\sparc\sparc\obj\Debug\ResolveAssemblyReference.cache
 H:\opensarc\sparc\sparc\obj\Debug\sparc.dll
 H:\opensarc\sparc\sparc\obj\Debug\sparc.pdb
+H:\sparc\server\sparc\sparc\bin\sparc.dll
+H:\sparc\server\sparc\sparc\bin\sparc.pdb
+H:\sparc\server\sparc\sparc\obj\Debug\ResolveAssemblyReference.cache
+H:\sparc\server\sparc\sparc\obj\Debug\sparc.dll
+H:\sparc\server\sparc\sparc\obj\Debug\sparc.pdb

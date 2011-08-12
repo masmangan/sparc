@@ -5,22 +5,16 @@
   </EntityContainer>
   <EntityType Name="sparc_Aulas">
     <Key>
-      <PropertyRef Name="Data" />
-      <PropertyRef Name="Horário" />
-      <PropertyRef Name="Atividade" />
-      <PropertyRef Name="Turma" />
-      <PropertyRef Name="Disciplina" />
-      <PropertyRef Name="Professor" />
-      <PropertyRef Name="UserId" />
-      <PropertyRef Name="AulaId" />
+      <PropertyRef Name="horario" />
+      <PropertyRef Name="atividade" />
+      <PropertyRef Name="turma" />
+      <PropertyRef Name="disciplina" />
+      <PropertyRef Name="categoria" />
     </Key>
-    <Property Name="Data" Type="DateTime" Nullable="false" />
-    <Property Name="Horário" Type="String" Nullable="false" MaxLength="2" Unicode="true" FixedLength="false" />
-    <Property Name="Atividade" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
-    <Property Name="Turma" Type="Int32" Nullable="false" />
-    <Property Name="Disciplina" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
-    <Property Name="Professor" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
-    <Property Name="UserId" Type="Guid" Nullable="false" />
-    <Property Name="AulaId" Type="Guid" Nullable="false" />
+    <Property Type="String" Name="horario" Nullable="false" MaxLength="2" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="atividade" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="turma" Nullable="false" />
+    <Property Type="String" Name="disciplina" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="categoria" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
   </EntityType>
 </Schema>

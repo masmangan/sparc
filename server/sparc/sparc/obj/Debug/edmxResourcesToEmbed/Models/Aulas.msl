@@ -4,14 +4,11 @@
     <EntitySetMapping Name="sparc_Aulas">
       <EntityTypeMapping TypeName="SARCFACIN2Model.sparc_Aulas">
         <MappingFragment StoreEntitySet="sparc_Aulas">
-          <ScalarProperty Name="Data" ColumnName="Data" />
-          <ScalarProperty Name="Horário" ColumnName="Horário" />
-          <ScalarProperty Name="Atividade" ColumnName="Atividade" />
-          <ScalarProperty Name="Turma" ColumnName="Turma" />
-          <ScalarProperty Name="Disciplina" ColumnName="Disciplina" />
-          <ScalarProperty Name="Professor" ColumnName="Professor" />
-          <ScalarProperty Name="UserId" ColumnName="UserId" />
-          <ScalarProperty Name="AulaId" ColumnName="AulaId" />
+          <ScalarProperty Name="categoria" ColumnName="categoria" />
+          <ScalarProperty Name="disciplina" ColumnName="disciplina" />
+          <ScalarProperty Name="turma" ColumnName="turma" />
+          <ScalarProperty Name="atividade" ColumnName="atividade" />
+          <ScalarProperty Name="horario" ColumnName="horario" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
