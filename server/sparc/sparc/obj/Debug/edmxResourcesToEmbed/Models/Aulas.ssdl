@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SARCFACIN2Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="SARCFACIN2ModelStoreContainer">
+    <EntitySet Name="sparc_Aulas" EntityType="SARCFACIN2Model.Store.sparc_Aulas" store:Type="Views" store:Schema="dbo" store:Name="sparc_Aulas">
+      <DefiningQuery>SELECT 
+      [sparc_Aulas].[Data] AS [Data], 
+      [sparc_Aulas].[Horário] AS [Horário], 
+      [sparc_Aulas].[Atividade] AS [Atividade], 
+      [sparc_Aulas].[Turma] AS [Turma], 
+      [sparc_Aulas].[Disciplina] AS [Disciplina], 
+      [sparc_Aulas].[Professor] AS [Professor], 
+      [sparc_Aulas].[UserId] AS [UserId], 
+      [sparc_Aulas].[AulaId] AS [AulaId]
+      FROM [dbo].[sparc_Aulas] AS [sparc_Aulas]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <!--Errors Found During Generation:
+      warning 6002: The table/view 'SARCFACIN2.dbo.sparc_Aulas' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+  <EntityType Name="sparc_Aulas">
+    <Key>
+      <PropertyRef Name="Data" />
+      <PropertyRef Name="Horário" />
+      <PropertyRef Name="Atividade" />
+      <PropertyRef Name="Turma" />
+      <PropertyRef Name="Disciplina" />
+      <PropertyRef Name="Professor" />
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="AulaId" />
+    </Key>
+    <Property Name="Data" Type="datetime" Nullable="false" />
+    <Property Name="Horário" Type="nvarchar" Nullable="false" MaxLength="2" />
+    <Property Name="Atividade" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="Turma" Type="int" Nullable="false" />
+    <Property Name="Disciplina" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="Professor" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="AulaId" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+</Schema>

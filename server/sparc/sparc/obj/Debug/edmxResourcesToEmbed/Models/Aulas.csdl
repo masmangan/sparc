@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SARCFACIN2Model" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="SARCFACIN2Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sparc_Aulas" EntityType="SARCFACIN2Model.sparc_Aulas" />
+  </EntityContainer>
+  <EntityType Name="sparc_Aulas">
+    <Key>
+      <PropertyRef Name="Data" />
+      <PropertyRef Name="Horário" />
+      <PropertyRef Name="Atividade" />
+      <PropertyRef Name="Turma" />
+      <PropertyRef Name="Disciplina" />
+      <PropertyRef Name="Professor" />
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="AulaId" />
+    </Key>
+    <Property Name="Data" Type="DateTime" Nullable="false" />
+    <Property Name="Horário" Type="String" Nullable="false" MaxLength="2" Unicode="true" FixedLength="false" />
+    <Property Name="Atividade" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="Turma" Type="Int32" Nullable="false" />
+    <Property Name="Disciplina" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="Professor" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="AulaId" Type="Guid" Nullable="false" />
+  </EntityType>
+</Schema>

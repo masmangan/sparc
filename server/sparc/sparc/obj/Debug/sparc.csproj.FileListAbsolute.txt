@@ -1,0 +1,5 @@
+H:\opensarc\sparc\sparc\bin\sparc.dll
+H:\opensarc\sparc\sparc\bin\sparc.pdb
+H:\opensarc\sparc\sparc\obj\Debug\ResolveAssemblyReference.cache
+H:\opensarc\sparc\sparc\obj\Debug\sparc.dll
+H:\opensarc\sparc\sparc\obj\Debug\sparc.pdb

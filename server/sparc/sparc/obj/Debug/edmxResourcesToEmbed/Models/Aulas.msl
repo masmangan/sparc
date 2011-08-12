@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SARCFACIN2ModelStoreContainer" CdmEntityContainer="SARCFACIN2Entities">
+    <EntitySetMapping Name="sparc_Aulas">
+      <EntityTypeMapping TypeName="SARCFACIN2Model.sparc_Aulas">
+        <MappingFragment StoreEntitySet="sparc_Aulas">
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="Horário" ColumnName="Horário" />
+          <ScalarProperty Name="Atividade" ColumnName="Atividade" />
+          <ScalarProperty Name="Turma" ColumnName="Turma" />
+          <ScalarProperty Name="Disciplina" ColumnName="Disciplina" />
+          <ScalarProperty Name="Professor" ColumnName="Professor" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="AulaId" ColumnName="AulaId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
