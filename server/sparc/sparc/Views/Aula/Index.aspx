@@ -6,7 +6,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-    <h2>Hoje</h2>
+    <h2><%:DateTime.Now.ToString("dd/MM/yyyy HH\\hmm")%></h2>
 
     <table>
         <tr>
